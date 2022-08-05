@@ -5,7 +5,7 @@ const saveCountry = require("../../models/bookmark_model")
 const router = express.Router()
 const dbURI1 = "mongodb://localhost:27017/countrymon"
 
-const username = encodeURIComponent("RoDDy22")
+const username = "RoDDy22"
 const password = encodeURIComponent("P5VOGOihhrxMljav")
 const dbURI = `mongodb+srv://${username}:${password}@countrymon.3qfdo3m.mongodb.net/?retryWrites=true&w=majority`
 
